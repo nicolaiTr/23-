@@ -12,7 +12,7 @@ body {
 .wrapper {
     height: 100vh;
     overflow: hidden;
-    background: url('../img/89809_800.png');
+    background: url('../img/1234567.png');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Play', sans-serif;
@@ -27,21 +27,25 @@ body {
     flex-direction: column;
     height: 100%;
     padding: 5% 0;
-    background: rgba(94, 109, 74, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     color: #661616;
 }
 
 .title {
     font-size: 60px;
     margin: 10px 0;
+    font-size: 50px;
+    margin: 0;
+    animation: title 1s alternate infinite;
+    -webkit-animation: title 1s alternate infinite;
 }
 @keyframes title {
     0% {
-        color: #ff0000;
+        color: #149b0f;
     }
 
     100% {
-        color: #ffffff;
+        color: #6e6e6e;
     }
 }
 
@@ -54,11 +58,11 @@ body {
 
 @keyframes subtitle {
     0% {
-        color: #ff0000;
+        color: #01035c;
     }
 
     100% {
-        color: #ffffff;
+        color: #8f8f8f;
     }
 }
 
